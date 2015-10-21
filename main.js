@@ -30,8 +30,16 @@ blank();
 var song1 = " bottles of root beer on the wall,"
 var song2 = " bottles of root beer... take one down, pass it around"
 var song3 = " bottles of root beer on the wall"
+var song4 = " bottle of root beer on the wall, "
+var song5 = " bottle of root beer on the wall"
+var song6 = " bottle of root beer... take one down, pass it around"
 
-for(var i = 99; i >= 1; i--){
+for(var i = 99; i > 2; i--){
 	console.log(i, song1, i, song2, i-1, song3);
 }
-
+for(var j = 2; j > 1; j--){
+	console.log(j, song1, j, song2, j-1, song5);
+}
+for(var k = 1; k > 0; k--){
+	console.log(k, song4, k, song6, k-1, song3);
+}
